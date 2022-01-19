@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0c192c;
+}
+
+
+
+.main-container{
+    max-width: 1200px;
+    width: 100%;
+    height: 700px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    max-width: 356px;
+    width: 100%;
+    max-height: 596px;
+    height: 100%;
+    background-color: #15273f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.card-pic{
+    max-height: 306px;
+    height: 100%;
+    max-width: 298px;
+    width: 100%;
+    background-color: blue;
+    margin: 0 0 10px ;
+    border-radius: 15px;
+    position: relative;
+}
+
+.overlay {
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0194a4;
+  }
+  .card-pic:hover .overlay {
+    opacity: 0.8;
+  }  
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+.card-pic img{
+    max-height: 306px;
+    height: 100%;
+    max-width: 298px;
+    width: 100%; 
+    border-radius: 15px;
+
+}
+
+.card-content{
+    max-height: 165px;
+    height: 100%;
+    max-width: 298px;
+    width: 100%;
+   
+    margin: 0 0 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    height:40px;
+    width: 100%;
+   
+    margin: 0 0 5px ;
+    
+}
+
+.title p{
+    font-size: 24px;
+    color: #23ece4;
+}
+.parag{
+    height:70px;
+    width: 100%;
+   
+    margin: 0 0 5px ;
+}
+
+.parag p {
+    font-size: 18px;
+    color: #91a5ca;
+}
+.footer{
+    height: 40px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 3px 5px;
+}
+
+.footer .diamon{
+    height: auto;
+    width: 80%;
+   
+    align-self: center;
+    margin: 0 ;
+}
+
+.diamon p {
+    font-size: 18px;
+    color: #23ece4;
+}
+
+.footer .time{
+    height: auto;
+    width: 80%;
+    align-self: center;
+    margin: 0 2px;
+}
+
+.time p {
+    font-size: 18px;
+    color: #91a5ca;
+    text-align: right;
+}
+
+.card-footer{
+    max-height: 61px;
+    height: 100%;
+    max-width: 298px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 3px 5px;
+
+
+}
+
+.small-pic{
+    height:auto;
+    width: auto;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 3px 3px 0;
+}
+
+
+
+.name-area{
+    height: auto;
+    width: 90%;
+    
+    padding-left: 10px;
+}
+
+.small-pic img{
+ max-height: 30px;
+ height: 100%;
+ max-width: 40px;
+ width: 100%;
+}
+.name-area p {
+    font-size: 14px;
+    color: #fff;
+   
+}
